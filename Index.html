@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Start</title>
+
+    <!--<link rel="stylesheet" href="background.css"/>-->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>-->
+</head>
+
+
+<body style="background-image:url(Welthintergrund.jpg); background-size: cover"> <!-- Hintergrundbild änderbar, auswahl aus Ordner -->
+<div class="container">
+<nav class="navbar navbar-static-top"> <!-- Navbar -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form id="signin" class="navbar-form navbar-right" role="form">
+                <div class="input-group">
+                    <span class="input-group-addon"></span>
+                    <input id="email" type="email" class="form-control" name="email" value="" placeholder="Email Address">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-addon"></span>
+                    <input id="password" type="password" class="form-control" name="password" value="" placeholder="Password">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+
+        </div>
+</nav> <!-- Navbar ende -->
+</div>
+
+
+<div class="row" style="margin-top: 40px">
+    <div class="col-xs-2"></div>
+    <div class="col-xs-5">      <!-- GISCoLab Schriftzug -->
+        <h1 style="margin-top: 100px; font-size: 100px; color: white">GISCoLab</h1>
+    </div>
+        <div class="col-xs-3">
+            <div class="container" style="width: 100%">         <!-- Registrieren -->
+            <div class="jumbotron" style="background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.7); padding: 10px">
+                <h2 class="form-signin-heading"><b>Register!</b></h2>
+                <input id="username" type="text" class="form-control" name="username" value="" placeholder="Username">
+                <input style="margin-top: 1rem" id="emailregister" type="email" class="form-control" name="email" value="" placeholder="Email Adress">
+                <input style="margin-top: 1rem" id="passwordregister" type="password" class="form-control" name="password" value="" placeholder="Password">
+                <input style="margin-top: 1rem" id="firstname" type="text" class="form-control" name="firstname" value="" placeholder="First name">
+                <input style="margin-top: 1rem" id="surname" type="text" class="form-control" name="surname" value="" placeholder="Surname">
+                <button type="submit" class="btn btn-success" style="width: 60%; margin-top: 1rem">Register!</button>
+            </div>
+            </div>
+        </div>      <!-- Registrierung ende -->
+    <div class="col-xs-2"></div>
+</div>
+
+<script src="bootstrap/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+</body>
+</html>
